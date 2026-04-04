@@ -69,11 +69,11 @@
 
 
 
-# for i in range(101):
-#   print(i)
+for i in range(101):
+  print(i)
 
-# let print table of 5
-# for i in range(5,(5*10)+1,5):
+# let print table of 6
+# for i in range(6,(6*10)+1,6):
 #     print(i)
 
 # a="thjhwjh jshfhf sfhjhfk sdjhfnjshh"
@@ -86,12 +86,13 @@
 
 
 # for i in range(1,21):
-#     if i==56:
+#     if i==16:
 #         print("break ststemeint executed")
 #         break
 #     print(i)
 # else:
 #     print("break executed not")
+#     Jab else loop ke saath juda hota hai (indentation for ke barabar), toh Python use tabhi chalata hai jab loop poora khatam ho jaye. Agar loop ke beech mein break aa gaya, toh Python else ko skip kar deta hai.
 
 
 # n=int(input("enetr number="))
