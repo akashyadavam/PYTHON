@@ -49,6 +49,17 @@
 #         tries+=1
 #         print("go higher")
 
+
+# is_game_on = True  # Pehle variable ko True rakha
+
+# while is_game_on:
+#     guess = int(input("guess no:="))
+#     if num == guess:
+#         print("Sahi guess!")
+#         is_game_on = False  # Isse loop agli bar nahi chalega
+#     else:
+#         print("Phir se try karo")
+
 # def sum( a, b):
 #     print(f"hello sum is {a//b}")
 # sum(3,9)
@@ -56,7 +67,7 @@
 
 # def sum( a, b=2):
 #     print(f"hello sum is {a//b}")
-# sum(10,5)#positionla argument replace mar denga 
+# sum(10,5) #positionla argument replace mar denga 
 
 
 # def palindrome(st):
