@@ -18,6 +18,7 @@
 
 # print(not 12==12) result ka ulta print kr denga
 # print(True and bool(0))
+# dhyan rakhna used yahi honge boss
 
 
 # a=13
@@ -69,8 +70,9 @@
 
 
 
-for i in range(101):
-  print(i)
+# for i in range(101):
+#   # 0:101:1;
+#   print(i)
 
 # let print table of 6
 # for i in range(6,(6*10)+1,6):
@@ -155,3 +157,124 @@ for i in range(101):
 
 # if c==a:
 #     print("palindrome")
+
+
+# prime number code
+# a=int(input("enter"))
+# if a>2:
+#  for i in range(2,a):
+#     if a % i == 0:
+#         print("Not prime")
+#         break
+#  else:
+#     print("Prime")  
+# else:
+#       print("Primee")    
+
+
+# n=1
+# a=int(input("enter"))
+# for i in range(1,a+1,1):
+#     if i%2==0:
+#         n*=i
+# print(f"product is {n}")        
+
+
+
+# check armstrong number ka code likh
+# a=int(input("enter"))
+# l=0
+# temp=a
+# while temp!=0:
+#     l+=1
+#     temp//=10
+# temp=a
+# ans=0
+# while temp!=0:
+#     ans+=((temp%10)**l)
+#     temp//=10
+
+# if ans==a:
+#     print("armstrong")
+# else:
+#     print("not aramstrong")
+
+
+# a="markram"
+# w=a
+# in python string immutable
+
+# k=len(a)
+# print(a)
+# a = list(a)
+# for i in range(0,k//2):
+#     c=a[i]
+#     a[i]=a[len(a)-i-1]
+#     a[len(a)-i-1]=c
+# p = "".join(a)   
+# print(p)
+# if(p==w):
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+
+# for i in range(1,5):
+#     for j in range(1,i+1):
+#         print(j,end ="")
+#     print()  
+
+
+# a="naman"
+# v=0
+# a = a.lower()
+# a=list(a)
+# for i in range (0,len(a)):
+#     if(a[i] in "aeiou"):
+#         v+=1 
+# print(f"vowel ={v} and cpns={len(a)-v}")
+
+
+
+# n=int(input("number enter kr re"))
+# a=0
+# for i in range (1,n):
+#     if n%i==0:
+#         a+=i
+# if(a==n):
+#     print("perfect")
+# else:
+#     print("not perfect")
+
+#a = int(input("enter number: "))
+
+#temp = a
+# sum_digits = 0
+# rev = 0
+
+#while temp != 0:
+#     digit = temp % 10
+#     sum_digits += digit
+#     rev = rev * 10 + digit
+#     temp //= 10
+
+#print(f"sum = {sum_digits}")
+#print(f"reverse = {rev}")
+
+#if rev == a:
+#     print("palindrome")
+#else:
+#     print("not palindrome")  
+
+# n = int(input("enter terms: "))
+
+# a = 0
+# b = 1
+
+# for i in range(n):
+#     print(a, end=" ")
+#     c = a + b
+#     a = b
+#     b = c 
+
+
