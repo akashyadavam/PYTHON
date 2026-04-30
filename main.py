@@ -28,11 +28,12 @@
 
 # c="akash"
 # print(c[-1],c[4])
+# indexing piche se minus se hota hai boss yaha habibi
 
 
 
 # d="akash yadav"
-# print(d[0:6:1])
+# print(d[0:5:1])
 # print(d[6:11:1])
 # print(d[::])
 
@@ -52,9 +53,9 @@
 
 # print(12/4)
 
-# name="akash" 
-# name=int(name)
-# print(type(name))
+name="akash" 
+name=int(name)
+print(type(name))
 # Computer ko pata hai ki 1 ki value kya hoti hai, lekin uske liye "a", "k", "a", "s", "h" sirf characters hain, koi mathematical value nahi. Inhe bina kisi logic ke integer mein convert karna impossible hai.
 
 # name="akash"
