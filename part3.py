@@ -87,3 +87,17 @@
 # hello()
 
 
+# import random
+# target=random.randint(1,100)
+# tries=0
+# while True:
+#     a=int(input("guess number"))
+#     if(a==target):
+#         tries+=1
+#         print(f"you get it in {tries} chance")
+#     elif(a>target):
+#         tries+=1
+#         print("go lower")
+#     else:
+#         tries+=1
+#         print("go higher")
