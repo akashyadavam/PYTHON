@@ -53,9 +53,10 @@
 
 # print(12/4)
 
-name="akash" 
-name=int(name)
-print(type(name))
+# name="akash" 
+# name=int(name)
+# print(type(name)) 
+# int() sirf numeric string ko convert karta;
 # Computer ko pata hai ki 1 ki value kya hoti hai, lekin uske liye "a", "k", "a", "s", "h" sirf characters hain, koi mathematical value nahi. Inhe bina kisi logic ke integer mein convert karna impossible hai.
 
 # name="akash"
