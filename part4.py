@@ -179,3 +179,143 @@
 #     l[i]=l[n-i-1]
 #     l[n-i-1]=t
 # print(f"{l}")
+
+
+# tuple questions
+# t = (1, 2, 3, 4, 5)
+# sum=0
+# for i in range(len(t)):
+#     sum+=t[i]
+# print(f"{sum}")
+# n=len(t)
+# s=()
+# for i in range(len(t)-1,-1,-1):
+#     s+=(t[i],)
+   
+# print(f"{s}")
+
+
+# t = (1,2,3,4,5)
+
+# new = (t[-1],) + t[1:-1] + (t[0],)
+
+# print(new)
+
+# t = (1,2,3,4,5,6,7)
+
+# for num in t: prime
+#     if num > 1:
+#         for i in range(2, num):
+#             if num % i == 0:
+#                 break
+#         else:
+#             print(num, end=" ")
+
+
+# t = (1,2,3,4) consecutive sum
+
+# res = ()
+# for i in range(len(t)-1):
+#     res += (t[i] + t[i+1],)
+
+# print(res)
+
+# t = (1,2,3,4)
+# r=();
+# # tuple immutable not change new bannan padega
+# for i in range(len(t)-1):
+#     r+=(t[i]*t[i+1],)
+#     # append aese honge boss
+# print(f"{r}")
+
+
+# t = (10,20,30)
+
+# res = ()
+# for i in range(len(t)):
+#     res += ((i, t[i]),)
+
+# print(res)
+
+# setttttttttttttt
+# l = [1,2,2,3,4,4,5]
+# s = set(l)
+# print(s)
+# a = {1,2,3,4}
+# b = {3,4,5,6}
+# print(a & b)
+# print(a | b)
+# print(a ^ b)
+
+# vowels = {'a','e','i','o','u'}
+# res = set()
+
+# for i in s:
+#     if i in vowels:
+#         res.add(i)
+
+# print(len(res))
+
+
+
+# res = []
+# for i in l:
+#     if i not in res:
+#         res.append(i)
+
+# print(res)
+
+
+
+# d1 = {"a":1, "b":2}
+# d2 = {"c":3, "d":4}
+
+# res = {}
+
+# for i in d1:
+#     res[i] = d1[i]
+
+# for i in d2:
+#     res[i] = d2[i]
+
+# print(res)
+
+# d = {"a":10, "b":20, "c":30}
+
+# total = 0
+
+# for i in d:
+#     total += d[i]
+
+# print(total)
+
+# l = [1,2,2,3,3,3,4]
+
+# freq = {}
+
+# for i in l:
+#     if i in freq:
+#         freq[i] += 1
+#     else:
+#         freq[i] = 1
+
+# print(freq)
+
+
+# d1 = {"a":10, "b":20}
+# d2 = {"a":5, "c":15}
+
+# res = {}
+
+# # pehle d1 copy
+# for i in d1:
+#     res[i] = d1[i]
+
+# # d2 add karo
+# for i in d2:
+#     if i in res:
+#         res[i] += d2[i]
+#     else:
+#         res[i] = d2[i]
+
+# print(res)
