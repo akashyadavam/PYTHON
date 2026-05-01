@@ -101,3 +101,20 @@
 #     else:
 #         tries+=1
 #         print("go higher")
+
+
+
+
+
+
+# def hh(name="yadav"):
+#     print(f"heelo {name}")
+
+
+# hh();
+# hh("ak")
+# jo fn call ke timew bhejnge wahi jayenga boss kyoki defaukt value
+# replace ho jayenga boss
+
+
+
