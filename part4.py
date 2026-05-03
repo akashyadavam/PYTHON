@@ -245,12 +245,12 @@
 # b = {3,4,5,6}
 # print(a & b)
 # print(a | b)
-# print(a ^ b)
+# print(a ^ b)  
 
 # vowels = {'a','e','i','o','u'}
 # res = set()
 
-# for i in s:
+# for i in s://traversal aese hi honga range krke nahi honga 
 #     if i in vowels:
 #         res.add(i)
 
@@ -319,3 +319,24 @@
 #         res[i] = d2[i]
 
 # print(res)
+
+# a=[1,1,1,1,2,2,3,4,5,5,6]
+# d={}
+# for i in a:
+#     if i in d.keys():
+#         d[i]+=1
+#     else:
+#         d[i]=1
+# print(d)
+# dictionary ka use frequenct mein use hota hain boss
+
+
+# d1={10:100,20:200,30:300}
+# d2={30:300,40:400,50:500}
+# for i in d2:
+#     if i in d1.keys():
+#         d1[i]+=d2[i]
+#     else:
+#         d1[i]=d2[i]
+# print(d1)
+# dhyan se concept samjho boss
